@@ -22,24 +22,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # this should print: "Is numberTeachers greater than numberStudents?" false
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+puts "Is the number_teachers less than number_students?", number_teachers < number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+puts "Is number_teachers equal to string_teachers?" number_teachers == string_teachers
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+puts "Is number_teachers not equal to number_students?" number_teachers != number_students
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+puts "Is number_students greater than or equal to 20?" number_students >= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+puts "Is number_students greater than or equal to 21?" number_students >= 21
 # this should print: false
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+puts "Is number_students less than or equal to 20?" number_students <= 20
 # this should print: true
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+puts "Is number_students less than or equal to 21?" number_students <= 21
 # this should print: true
 
 
@@ -53,21 +60,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: Explain. This code is evaluating whether 4 is less than 9 and printing the answer. This is true.
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Explain. This code has assigned a value for books of 3. It then asks whether 4 is less the number of the books variable which is false. 
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Explain. This code has assigned a value of 6 for friends and 2 for sibilings. It is then evaluating whether there are more friends than siblings which is true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Explain. This code has assigned a value of 9 for attendees and 8 for meals. It then is evaluating whether if there is am imbalance between attendees and meals which there is returning a true.
 
 
 #-------------------
@@ -90,15 +97,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && age < 2
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: The answer returned as true. Since a puppy in my mind a is a dog less than 2 years old I input that for the puppy portion. Since the age is less than 2 and the variable 'loves_to_play' are both true the result was true. 
