@@ -13,15 +13,15 @@
 # - If the user either has a good record or is over 25 years old, they should pay full price
 # - If the user is not over 25 and has a bad driving record, they need to have someone else sign for the rental
 
-good_driving_record = true
-# good_driving_record = false
+good_driving_record = false
+# good_driving_record = true
+# age = 33
 age = 24
-# age = 26
 
-if good_driving_record == true && age >= 25
-    puts "Congratulations, you get a discount on your car rental!"
+if good_driving_record == true && age >= 25 
+    puts "Congrats, you get a discount on your car rental"
 elsif good_driving_record == true || age >= 25 
-    puts "You may rent a car (at full price)!"
+    puts "You may rent a car!"
 else 
-    puts "Sorry, you may not rent a car.
+    puts "Sorry, you may not rent a car" 
 end
